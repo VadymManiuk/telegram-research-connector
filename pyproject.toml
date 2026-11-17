@@ -1,0 +1,12 @@
+[project]
+name = "telegram-research-connector"
+version = "1.0.0"
+description = "Read-only Telegram MCP connector"
+requires-python = ">=3.11"
+dependencies = ["mcp==1.30.0", "Telethon==1.44.0", "python-dotenv==1.2.4"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

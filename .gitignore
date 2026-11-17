@@ -1,0 +1,14 @@
+.venv/
+.runtime/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+.env
+.env.*
+credentials.env
+*.session*
+*.sqlite*
+*.db*
+*.log
+.DS_Store
